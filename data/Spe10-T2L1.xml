@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<system>
+	<matrix>
+		<struct-info>
+			<nrows>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/matrix/struct-info/nrows
+				</data>
+			</nrows>
+			<nnz>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/matrix/struct-info/nnz
+				</data>
+			</nnz>
+			<blk-size>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/matrix/struct-info/blk-size
+				</data>
+			</blk-size>
+			<kcol>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/matrix/struct-info/kcol
+				</data>
+			</kcol>
+			<cols>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/matrix/struct-info/cols
+				</data>
+			</cols>
+		</struct-info>
+		<data>
+			<values>
+				<data format="hdf"  type="real">
+					SPE10-T2L1.h5:/matrix/data/values
+				</data>
+			</values>
+		</data>
+	</matrix>
+	<vector>
+		<struct-info>
+			<nrows>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/vector/struct-info/nrows
+				</data>
+			</nrows>
+			<blk-size>
+				<data format="hdf"  type="int32">
+					SPE10-T2L1.h5:/vector/struct-info/blk-size
+				</data>
+			</blk-size>
+		</struct-info>
+		<data>
+			<values>
+				<data format="hdf"  type="real">
+					SPE10-T2L1.h5:/vector/data/values
+				</data>
+			</values>
+		</data>
+	</vector>
+</system>

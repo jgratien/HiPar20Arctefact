@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<system>
+	<matrix>
+		<struct-info>
+			<nrows>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/nrows
+				</data>
+			</nrows>
+			<nnz>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/nnz
+				</data>
+			</nnz>
+			<blk_size>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/blk_size
+				</data>
+			</blk_size>
+			<kcol>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/kcol
+				</data>
+			</kcol>
+			<cols>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/cols
+				</data>
+			</cols>
+		</struct-info>
+		<data>
+			<values>
+				<data format="hdf"  type="real">
+					SPE10-System-T50L1.h5:/matrix/data/values
+				</data>
+			</values>
+		</data>
+	</matrix>
+	<vector>
+		<struct-info>
+			<nrows>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/nrows
+				</data>
+			</nrows>
+			<blk_size>
+				<data format="hdf"  type="int32">
+					SPE10-System-T50L1.h5:/matrix/struct-info/blk_size
+				</data>
+			</blk_size>
+		</struct-info>
+		<data>
+			<values>
+				<data format="hdf"  type="real">
+					SPE10-System-T50L1.h5:/vector/data/values
+				</data>
+			</values>
+		</data>
+	</vector>
+</system>
